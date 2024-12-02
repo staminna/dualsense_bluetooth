@@ -62,6 +62,18 @@ int main(int argc, char *argv[]) {
                 running = 0;
             }
 
+            // Handle button press events
+            if (event.type == SDL_CONTROLLERBUTTONDOWN) {
+                printf("Button %d pressed\n", event.cbutton.button);
+            } else if (event.type == SDL_CONTROLLERBUTTONUP) {
+                printf("Button %d released\n", event.cbutton.button);
+            }
+
+            // Handle joystick axis motion
+            if (event.type == SDL_CONTROLLERAXISMOTION) {
+                printf("Axis %d value: %d\n", event.caxis.axis, event.caxis.value);
+            }
+
             // Handle device removal
             if (event.type == SDL_CONTROLLERDEVICEREMOVED) {
                 printf("Controller removed!\n");
