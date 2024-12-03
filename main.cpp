@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     // Set up OSC target
-    lo_address target = lo_address_new("127.0.0.1", "7400"); // Replace 7400 with your chosen port
+    lo_address target = lo_address_new("127.0.0.1", "9000"); // Replace 7400 with your chosen port
 
     // Initialize SDL
     if (SDL_Init(SDL_INIT_GAMECONTROLLER | SDL_INIT_SENSOR) < 0) {

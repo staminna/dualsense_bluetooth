@@ -6,3 +6,7 @@ gcc -o ps5_kontroller main.cpp \
     -framework SDL2 \
     -llo
 
+otool -L ps5_kontroller
+install_name_tool -add_rpath /Library/Frameworks ps5_kontroller
+#nohup ./ps5_kontroller > log.txt 2>&1 &
+./ps5_kontroller &
