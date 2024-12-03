@@ -33,10 +33,12 @@ int main(int argc, char *argv[]) {
     }
 
     // Enable sensors (Accelerometer and Gyroscope)
+    bool accelEnabled = false, gyroEnabled = false;
     if (SDL_GameControllerHasSensor(controller, SDL_SENSOR_ACCEL)) {
         if (SDL_GameControllerSetSensorEnabled(controller, SDL_SENSOR_ACCEL, SDL_TRUE) < 0) {
             printf("Failed to enable accelerometer: %s\n", SDL_GetError());
         } else {
+            accelEnabled = true;
             printf("Accelerometer enabled.\n");
         }
     } else {
@@ -47,6 +49,7 @@ int main(int argc, char *argv[]) {
         if (SDL_GameControllerSetSensorEnabled(controller, SDL_SENSOR_GYRO, SDL_TRUE) < 0) {
             printf("Failed to enable gyroscope: %s\n", SDL_GetError());
         } else {
+            gyroEnabled = true;
             printf("Gyroscope enabled.\n");
         }
     } else {
@@ -82,26 +85,42 @@ int main(int argc, char *argv[]) {
                     running = false;
                     break;
 
-                case SDL_SENSORUPDATE:
-                    if (event.csensor.sensor == SDL_SENSOR_ACCEL) {
-                        printf("Accelerometer - X: %.2f, Y: %.2f, Z: %.2f\n",
-                               event.csensor.data[0],
-                               event.csensor.data[1],
-                               event.csensor.data[2]);
-                    } else if (event.csensor.sensor == SDL_SENSOR_GYRO) {
-                        printf("Gyroscope - X: %.2f, Y: %.2f, Z: %.2f\n",
-                               event.csensor.data[0],
-                               event.csensor.data[1],
-                               event.csensor.data[2]);
-                    }
-                    break;
-
                 default:
                     break;
             }
         }
 
-        SDL_Delay(16);  // Delay for 60 FPS
+        // Check for accelerometer data
+        if (accelEnabled) {
+            float accel[3] = {0};
+            if (SDL_GameControllerGetSensorData(controller, SDL_SENSOR_ACCEL, accel, 3) == 0) {
+                printf("Accelerometer - X: %.2f, Y: %.2f, Z: %.2f\n", accel[0], accel[1], accel[2]);
+            } else {
+                // Log error only once per loop iteration
+                static bool accelErrorLogged = false;
+                if (!accelErrorLogged) {
+                    printf("Failed to read accelerometer data: %s\n", SDL_GetError());
+                    accelErrorLogged = true;
+                }
+            }
+        }
+
+        // Check for gyroscope data
+        if (gyroEnabled) {
+            float gyro[3] = {0};
+            if (SDL_GameControllerGetSensorData(controller, SDL_SENSOR_GYRO, gyro, 3) == 0) {
+                printf("Gyroscope - X: %.2f, Y: %.2f, Z: %.2f\n", gyro[0], gyro[1], gyro[2]);
+            } else {
+                // Log error only once per loop iteration
+                static bool gyroErrorLogged = false;
+                if (!gyroErrorLogged) {
+                    printf("Failed to read gyroscope data: %s\n", SDL_GetError());
+                    gyroErrorLogged = true;
+                }
+            }
+        }
+
+        SDL_Delay(100);  // Delay to reduce CPU usage
     }
 
     // Clean up
