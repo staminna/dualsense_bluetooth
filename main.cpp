@@ -22,7 +22,7 @@ bool checkSensors(hid_device* handle) {
 
     unsigned char buf[64];
     std::cout << "  Attempting to read sensor data...\n";
-    
+
     // Try to read data multiple times
     for (int attempt = 0; attempt < 5; attempt++) {
         int res = hid_read_timeout(handle, buf, sizeof(buf), 2000);
@@ -122,7 +122,7 @@ int main(int argc, char* argv[]) {
     signal(SIGTERM, signalHandler);
 
     // Set up OSC target
-    lo_address target = lo_address_new("127.0.0.1", "8000");
+    lo_address target = lo_address_new("127.0.0.1", "7400");
 
     if (hid_init()) {
         std::cerr << "Failed to initialize HIDAPI\n";
