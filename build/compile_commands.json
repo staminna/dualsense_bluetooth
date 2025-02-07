@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/opt/homebrew/opt/sdl2/include -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/ps5_kontroller.dir/main.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/main.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/main.cpp",
+  "output": "CMakeFiles/ps5_kontroller.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/oscpack.dir/osc/OscTypes.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscTypes.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscTypes.cpp",
+  "output": "oscpack/CMakeFiles/oscpack.dir/osc/OscTypes.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/oscpack.dir/osc/OscReceivedElements.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscReceivedElements.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscReceivedElements.cpp",
+  "output": "oscpack/CMakeFiles/oscpack.dir/osc/OscReceivedElements.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/oscpack.dir/osc/OscPrintReceivedElements.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscPrintReceivedElements.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscPrintReceivedElements.cpp",
+  "output": "oscpack/CMakeFiles/oscpack.dir/osc/OscPrintReceivedElements.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/oscpack.dir/osc/OscOutboundPacketStream.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscOutboundPacketStream.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/osc/OscOutboundPacketStream.cpp",
+  "output": "oscpack/CMakeFiles/oscpack.dir/osc/OscOutboundPacketStream.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/oscpack.dir/ip/IpEndpointName.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/ip/IpEndpointName.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/ip/IpEndpointName.cpp",
+  "output": "oscpack/CMakeFiles/oscpack.dir/ip/IpEndpointName.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/oscpack.dir/ip/posix/NetworkingUtils.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/ip/posix/NetworkingUtils.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/ip/posix/NetworkingUtils.cpp",
+  "output": "oscpack/CMakeFiles/oscpack.dir/ip/posix/NetworkingUtils.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/oscpack.dir/ip/posix/UdpSocket.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/ip/posix/UdpSocket.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/ip/posix/UdpSocket.cpp",
+  "output": "oscpack/CMakeFiles/oscpack.dir/ip/posix/UdpSocket.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/OscUnitTests.dir/tests/OscUnitTests.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/tests/OscUnitTests.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/tests/OscUnitTests.cpp",
+  "output": "oscpack/CMakeFiles/OscUnitTests.dir/tests/OscUnitTests.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/OscSendTests.dir/tests/OscSendTests.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/tests/OscSendTests.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/tests/OscSendTests.cpp",
+  "output": "oscpack/CMakeFiles/OscSendTests.dir/tests/OscSendTests.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/OscReceiveTest.dir/tests/OscReceiveTest.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/tests/OscReceiveTest.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/tests/OscReceiveTest.cpp",
+  "output": "oscpack/CMakeFiles/OscReceiveTest.dir/tests/OscReceiveTest.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/OscDump.dir/examples/OscDump.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/examples/OscDump.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/examples/OscDump.cpp",
+  "output": "oscpack/CMakeFiles/OscDump.dir/examples/OscDump.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/SimpleReceive.dir/examples/SimpleReceive.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/examples/SimpleReceive.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/examples/SimpleReceive.cpp",
+  "output": "oscpack/CMakeFiles/SimpleReceive.dir/examples/SimpleReceive.cpp.o"
+},
+{
+  "directory": "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+  "command": "/usr/bin/clang++ -I/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o oscpack/CMakeFiles/SimpleSend.dir/examples/SimpleSend.cpp.o -c /Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/examples/SimpleSend.cpp",
+  "file": "/Users/jorgenunes/Desktop/var.rho.maxlive/oscpack/examples/SimpleSend.cpp",
+  "output": "oscpack/CMakeFiles/SimpleSend.dir/examples/SimpleSend.cpp.o"
+}
+]

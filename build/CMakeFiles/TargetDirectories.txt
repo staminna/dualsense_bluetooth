@@ -1,0 +1,12 @@
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/CMakeFiles/ps5_kontroller.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/CMakeFiles/edit_cache.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/CMakeFiles/rebuild_cache.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/oscpack.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/OscUnitTests.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/OscSendTests.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/OscReceiveTest.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/OscDump.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/SimpleReceive.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/SimpleSend.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/edit_cache.dir
+/Users/jorgenunes/Desktop/var.rho.maxlive/build/oscpack/CMakeFiles/rebuild_cache.dir

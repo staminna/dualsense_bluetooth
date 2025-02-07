@@ -1,0 +1,156 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "oscpack",
+					"jsonFile" : "directory-oscpack-Debug-98c856e038a4bfc5dce0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "oscpack",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ps5_kontroller",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "oscpack",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "OscDump::@4d5434a14a32655c8def",
+					"jsonFile" : "target-OscDump-Debug-5a7d164826aa364f12f7.json",
+					"name" : "OscDump",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OscReceiveTest::@4d5434a14a32655c8def",
+					"jsonFile" : "target-OscReceiveTest-Debug-c88779f3433b46c522a4.json",
+					"name" : "OscReceiveTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OscSendTests::@4d5434a14a32655c8def",
+					"jsonFile" : "target-OscSendTests-Debug-444069717fed22867c01.json",
+					"name" : "OscSendTests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OscUnitTests::@4d5434a14a32655c8def",
+					"jsonFile" : "target-OscUnitTests-Debug-107effef60f49664f98c.json",
+					"name" : "OscUnitTests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SimpleReceive::@4d5434a14a32655c8def",
+					"jsonFile" : "target-SimpleReceive-Debug-65122814464839dbdddc.json",
+					"name" : "SimpleReceive",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SimpleSend::@4d5434a14a32655c8def",
+					"jsonFile" : "target-SimpleSend-Debug-9088c3af2dc3674bf938.json",
+					"name" : "SimpleSend",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oscpack::@4d5434a14a32655c8def",
+					"jsonFile" : "target-oscpack-Debug-491e943b700f8fe864a9.json",
+					"name" : "oscpack",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ps5_kontroller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ps5_kontroller-Debug-e120fea77d7750cefd9b.json",
+					"name" : "ps5_kontroller",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jorgenunes/Desktop/var.rho.maxlive/build",
+		"source" : "/Users/jorgenunes/Desktop/var.rho.maxlive"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
